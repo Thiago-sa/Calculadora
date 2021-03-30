@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(0, 245, 163);
+}
+
+header{
+  background: black;
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+
+h1{
+  color: rgb(252, 252, 252);
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding: 13px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.calculadora{
+  position: absolute;
+  background-color: rgb(14, 14, 14) ;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 5px 4px rgb(255, 255, 255);
+  
+}
+
+#resultado{
+  width: 205px;
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: black;
+  text-align: right;
+  padding: 5px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.button{
+  background: rgb(215, 218, 213);
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 1px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover{
+  background: rgb(77, 77, 77); 
+}
